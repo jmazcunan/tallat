@@ -1,11 +1,13 @@
 import streamlit as st
 
-st.title("Tallat  -  Fallas 2025 🔥")
-
 st.set_page_config(page_title = "Tallat Láser", 
                    page_icon = "🔥",
                    layout="wide"
                    )
+
+st.title("Tallat  -  Fallas 2025 🔥")
+
+
 
 with st.expander("Pulseras", expanded=True):
     st.caption("Peineta")
