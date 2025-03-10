@@ -29,3 +29,17 @@ with st.expander("Broches", expanded=True):
     cols[0].image("static/broche_p1.jpg")
     cols[1].image("static/broche_p2.jpg")
     cols[2].image("static/broche_p3.jpg")
+
+
+with st.expander("Pins", expanded=True):
+    st.caption("Peineta")
+    cols = st.columns(3)
+    cols[0].image("static/pin_p1.jpg")
+    cols[1].image("static/pin_p2.jpg")
+    cols[2].image("static/pin_p3.jpg")
+
+    st.caption("Llama")
+    cols = st.columns(3)
+    cols[0].image("static/pin_l1.jpg")
+    cols[1].image("static/pin_l3.jpg")
+    cols[2].image("static/pin_l2.jpg")
