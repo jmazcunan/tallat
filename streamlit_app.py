@@ -5,7 +5,7 @@ st.title("Tallat  -  Fallas 2025 🔥")
 
 
 with st.expander("Pulseras", expanded=True):
-    st.subheader("Peineta")
+    st.caption("Peineta")
     cols = st.columns(3)
     cols[0].image("static/pulseras1.jpg")
     cols[1].image("static/pulseras2.jpg")
@@ -13,13 +13,13 @@ with st.expander("Pulseras", expanded=True):
 
 
 with st.expander("Broches", expanded=True):
-    st.subheader("Llama")
+    st.caption("Llama")
     cols = st.columns(3)
     cols[0].image("static/broche2.jpg")
     cols[1].image("static/broche1.jpg")
     cols[2].image("static/broche3.jpg")
 
-    st.subheader("Peineta")
+    st.caption("Peineta")
     cols = st.columns(3)
     cols[0].image("static/broche_p1.jpg")
     cols[1].image("static/broche_p2.jpg")
